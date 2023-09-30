@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <!-Links -!>
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-Main JS-!>
+    <script defer src="./js/script.js"></script> <!- Defer= para não carregar o script antes do html, ou colocar ele no final-!>
+    <title>Pokedex</title>
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon_image">
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span>
+        </h1>
+        <form class="form">
+            <input 
+            type="search"
+            class="input_search"
+            placeholder="Name or Number"
+            required
+            /> 
+            <!– Search = Vai aparecer uma lupinha para pesquisar no celular pelo menos. required = não aceita valores vazios -!>
+        </form>
+        <div class="buttons">
+            <!- São duas classes, class button e class btn-next ou prev -!>
+            <button class="button btn-prev">Prev &lt;</button> <!- Para colocar sinais que fazem parte do HTML tem as entities, por exemplo esse < é &lt;-!>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+        <img src="./Images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+</body>
+</html>
