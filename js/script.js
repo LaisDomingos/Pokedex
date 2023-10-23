@@ -43,7 +43,7 @@ const renderPokemon = async (pokemon) => { /*Função para renderizar as informa
 form.addEventListener('submit', (event) => {
     event.preventDefault();
     renderPokemon(input.value.toLowerCase()); /* O toLowerCase vai colocar tudo em letra minuscula para que não de erro quando a pessoa pesquisar com letra maiscula.Ele vai renderizar o que passamos no input. */  
-}); /*ELe vai executar uma função apartir desse evento, nesse caso o evento é o submit*/
+}); /*Ele vai executar uma função apartir desse evento, nesse caso o evento é o submit*/
 
 buttonPrev.addEventListener('click', () => {
     if (searchPokemon > 1){
